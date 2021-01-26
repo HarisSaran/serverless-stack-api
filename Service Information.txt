@@ -1,0 +1,26 @@
+Service Information
+service: notes-api
+stage: prod
+region: us-east-2
+stack: notes-api-prod
+resources: 32
+api keys:
+  None
+endpoints:
+  POST - https://kf6opb6831.execute-api.us-east-2.amazonaws.com/prod/notes
+  GET - https://kf6opb6831.execute-api.us-east-2.amazonaws.com/prod/notes/{id}
+  GET - https://kf6opb6831.execute-api.us-east-2.amazonaws.com/prod/notes
+  PUT - https://kf6opb6831.execute-api.us-east-2.amazonaws.com/prod/notes/{id}
+  DELETE - https://kf6opb6831.execute-api.us-east-2.amazonaws.com/prod/notes/{id}
+functions:
+  create: notes-api-prod-create
+  get: notes-api-prod-get
+  list: notes-api-prod-list
+  update: notes-api-prod-update
+  delete: notes-api-prod-delete
+layers:
+  None
+
+
+  Note ID:
+"b59e8260-6026-11eb-a089-757822c8c984\",

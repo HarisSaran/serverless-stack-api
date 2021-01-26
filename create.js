@@ -1,6 +1,8 @@
 import * as uuid from "uuid";
 import AWS from "aws-sdk";
 
+AWS.config.update({ region: "us-east-2" });
+
 const dynamoDb = new AWS.DynamoDB.DocumentClient();
 
 export async function main(event, context) {

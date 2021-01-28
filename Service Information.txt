@@ -64,3 +64,11 @@ layers:
   None
 
   npx aws-api-gateway-cli-test --username admin@example.com --password Passw0rd! --user-pool-id us-east-2_bAmwtgYqN --app-client-id 61tk5i5rvvr6a98h4dnqmdugrc --cognito-region us-east-2 --identity-pool-id us-east-2:ed1c32a6-93c5-4d47-9ee5-be38db7baf36 --invoke-url https://kf6opb6831.execute-api.us-east-2.amazonaws.com/prod --api-gateway-region us-east-2 --path-template /notes --method POST --body "{\"content\":\"hello world\",\"attachment\":\"hello.jpg\"}"
+
+-----------------------------------------
+STRIPE
+Publishable key
+pk_test_51IEg2MLkXKxOLoM6sSHGLrnOxFZVgWjmD8F5DzGeFS8n6R97H85bStOUpnMzzc5aG3wrF0hnG7dc5rIrU1yK4eL700qZXJLxhh
+
+Secret key
+sk_test_51IEg2MLkXKxOLoM6sA6NXRYQRuNIm170Z0RoBmwGO5IbFqmAV0TWv5NiLk96kp0oXyJJxGfp0v8lugBBfxfT7SPJ004HZjr3nz
